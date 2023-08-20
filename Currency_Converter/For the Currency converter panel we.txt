@@ -1,9 +1,0 @@
-For the Currency converter panel we 
-
-1. Create a combination box containing the source currency units
-2. Create a combination bos containg the target currency unit
-3. A text field for entering the amount given by the user
-4. A button which will receive the convert command.
-5. A label which will display the result
-
-Above all shoukd be inside the constructor CurrencyConverterPanel
