@@ -92,18 +92,3 @@ public class CurrencyConverterPanel extends JPanel
     }
 }
  
-/*
- * convert.addActionListener(new ActionListener() {
-            @Override
-            public void conversionPerformed (ActionListener e)
-            {
-                String SourceCurrency = (String)sourceCurrency.getSelectedItem();
-                String TargetCurrency = (String)targetCurrency.getSelectedItem();
-                double amount = Double.parseDouble(amountEntry.getText());
-                
-                double c = ConvertAmount (amount, SourceCurrency, TargetCurrency);
-
-                result.setText(String.format("%.2f %s = %.2f %s", amount, SourceCurrency, TargetCurrency));
-            }    
-        });
- */
